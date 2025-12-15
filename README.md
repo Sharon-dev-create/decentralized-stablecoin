@@ -12,7 +12,7 @@ Component	Description
 DecentralizedStableCoin.sol	ERC20 implementation of the DSC token. Minted/burned by the DSCEngine only.
 DSCEngine.sol	Core logic layer handling deposits, minting, burning, redemptions, and liquidations.
 OracleLib.sol	A safety wrapper for Chainlink price feeds with staleness checks.
-Mocks (ERC20Mock, MockV3Aggregator)	Used in Foundry tests to simulate collateral and price feeds.
+Mocks (ERC20Mock, MockV3Aggregator)	used in Foundry tests to simulate collateral and price feeds.
 ⚙️ System Flow
 
 Deposit Collateral → Lock ETH/BTC equivalents.
